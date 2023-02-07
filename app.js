@@ -35,7 +35,7 @@ function finder(){
                     for (var i = 0; i <college.length && !priceFound; i++) {
                         var marks = college[i];
                         if (isInRange(marks, value)) {
-                            document.getElementById("result").innerHTML = marks.name;
+                            document.getElementById("result").innerHTML = marks.name + "<br/>" + "USA";
                             priceFound = true
                         }
                     }}
@@ -75,7 +75,7 @@ function finder(){
                     for (var i = 0; i <college.length && !priceFound; i++) {
                         var marks = college[i];
                         if (isInRange(marks, value)) {
-                            document.getElementById("result").innerHTML = marks.name;
+                            document.getElementById("result").innerHTML = marks.name + "<br/>" + "New Zealand";
                             priceFound = true
                         }
                     }}
@@ -115,7 +115,7 @@ function finder(){
                     for (var i = 0; i <college.length && !priceFound; i++) {
                         var marks = college[i];
                         if (isInRange(marks, value)) {
-                            document.getElementById("result").innerHTML = marks.name;
+                            document.getElementById("result").innerHTML = marks.name + "<br/>" + "Australia";
                             priceFound = true
                         }
                     }}
